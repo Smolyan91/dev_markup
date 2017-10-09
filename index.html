@@ -1,20 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Test Page</title>
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <title>Шаблон</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Language" content="ru"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=3,user-scalable=1"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:300,400,500,700&amp;subset=cyrillic-ext"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="dev">
-<div class="wrapper">
-  <div class="six_blocks move_red"></div>
-  <div class="six_blocks rounded"></div>
-  <div class="six_blocks big gray_border"></div>
-  <div class="six_blocks big">
-    <p class="six_blocks__w_text">Profi Ru</p>
-  </div>
-  <div class="six_blocks"></div>
-  <div class="six_blocks"></div>
-</div>
+<body>
+    <div class="wrapper header">
+        <div class="wrapper-inner">
+            <div class="header__menu menu">
+                <a href="#" class="header__menu-item menu__item">home</a>
+                <a href="#" class="header__menu-item menu__item">about</a>
+                <a href="#" class="header__menu-item menu__item">portfolio</a>
+                <a href="#" class="header__menu-item menu__item">contact</a>
+            </div>
+
+            <a href="/" class="header__logo">rapt</a>
+        </div><!--wrapper-inner-->
+    </div><!--wrapper-->
+
+    <div class="wrapper slider">
+        <div class="wrapper-inner">
+            <h1 class="ui-title_large slider__title">Create Your Dream</h1>
+            <p class="slider__description">Lorem ipsum dolor sit amet, natum bonorum expetendis usu ut. Eum impetus offendit disputationi eu, at vim
+                aliquip lucilius praesent. Alia laudem antiopam te ius, sed ad munere integre, ubique facete sapientem nam ut.</p>
+        </div><!--wrapper-inner-->
+    </div><!--wrapper-->
+
+    <div class="wrapper list">
+        <div class="wrapper-inner">
+           <div class="list__item">
+               <div class="list__img"></div>
+               <h3 class="list__head">Bubble</h3>
+               <div class="list__text">
+                   <p>
+                       Сортировка пузырьком — это самый простой
+                       алгоритм сортировки. Он проходит по массиву
+                       несколько раз, на каждом этапе перемещая самое
+                       большое значение из неотсортированных в конец массива.
+                   </p>
+               </div>
+           </div>
+            <div class="list__item">
+                <div class="list__img"></div>
+                <h3 class="list__head">Insert</h3>
+                <div class="list__text">
+                    <p>
+                        Сортировка вставками работает, проходя по массиву
+                        и перемещая нужное значение в начало массива. После
+                        того, как обработана очередная позиция, мы знаем, что
+                        все позиции до нее отсортированы, а после нее — нет.
+                    </p>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__img"></div>
+                <h3 class="list__head">Switch</h3>
+                <div class="list__text">
+                    <p>
+                        Сортировка выбором — это некий гибрид между
+                        пузырьковой и сортировкой вставками. Как и
+                        сортировка пузырьком, этот алгоритм проходит
+                        по массиву раз за разом, перемещая одно значение
+                        на правильную позицию.
+                    </p>
+                </div>
+            </div>
+        </div><!--wrapper-inner-->
+    </div><!--wrapper-->
+
+    <div class="wrapper model">
+        <h1 class="model__title">OUR PORTFOLIO</h1>
+        <p class="model__description">
+            До сих пор мы рассматривали линейные алгоритмы. Они используют
+            мало дополнительной памяти, но имеют квадратичную сложность.
+            На примере сортировки слиянием мы посмотрим на алгоритм типа
+            «разделяй и властвуй»
+        </p>
+        <div class="model__link">
+            <a href="#" class="model__link-device">all</a>
+            <a href="#" class="model__link-device">mobile</a>
+            <a href="#" class="model__link-device">vr</a>
+            <a href="#" class="model__link-device">VR</a>
+        </div>
+
+        <div class="model__square">
+            <div class="model__square-block"></div>
+            <div class="model__square-block"></div>
+            <div class="model__square-block"></div>
+            <div class="model__square-block"></div>
+            <div class="model__square-block"></div>
+            <div class="model__square-block"></div>
+        </div>
+    </div>
+
+
+
+    <div class="wrapper contact">
+        <h1 class="contact__title">contact us</h1>
+        <p class="contact__description">Write your contacts...</p>
+        <div class="wrapper-inner">
+            <form action="">
+                <label>
+                    <input placeholder="First Name" type="text"/>
+                </label>
+                <label>
+                    <input placeholder="Last Nme" type="text"/>
+                </label>
+                <label>
+                    <input placeholder="E-mail" type="text"/>
+                </label>
+                <label>
+                    <textarea  placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                </label>
+            </form>
+
+        </div><!--wrapper-inner-->
+    </div><!--wrapper-->
+    <div class="wrapper footer"></div>
 </body>
 </html>
