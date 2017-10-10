@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+gulp_tasks
+node_modules
+gulpfile.js
+package-lock.json
+package.json
+js
+.idea/vcs.xml
+.idea/misc.xml
+.idea/workspace.xml
+.idea/modules.xml
+.idea/dev_markup.iml
+.idea/inspectionProfiles
